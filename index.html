@@ -4,35 +4,52 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Instagram Page</title>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <img
-      src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram-1.png"
-      width="150"
-      alt="instagram logo"
-    />
-    <div>
-      <input type="text" placeholder="Phone number or Email">
-      <input type="password" placeholder="Password"> 
-      <button>Submit</button>
-    </div>
-    <div>
-      <button>Log in</button>
-    </div>
-    <div>OR</div>
-    <div>
-      <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="facebook logo" width="30">
-      <a href="fb-login.html">Log in with 
-        Facebook</a>
-    </div>
-    <div>
-      <a href="password.html">Forgot password?</a>
-    </div>
-    <p> Don't have an account?
-<a href="signup-page.html">Sign up</a>
-    </p>
-     <div>
-    
+    <form>
+      <img
+        class="logo"
+        src="https://1000logos.net/wp-content/uploads/2017/02/Logo-Instagram-1.png"
+        alt="instagram logo"
+      />
+      <div class="input">
+        <input
+          type="text"
+          placeholder="Phone number, username or email"
+          class="phone"
+        />
+      </div>
 
+      <div class="input">
+        <input type="password" placeholder="Password" class="password" />
+        <button class="show">Show</button>
+      </div>
+
+      <div class="button">
+        <button class="login">Log in</button>
+      </div>
+
+      <div class="hr">
+        <hr />
+        OR
+        <hr />
+      </div>
+      <div class="facebook">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png"
+          alt="facebook logo"
+          width="30"
+        />
+        <a href="fb-login.html">Log in with Facebook</a>
+      </div>
+      <div>
+        <a href="password.html" class="forgot">Forgot password?</a>
+      </div>
+      <p>
+        Don't have an account?
+        <a href="signup-page.html" class="signup">Sign up</a>
+      </p>
+    </form>
   </body>
 </html>
